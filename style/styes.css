@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color:  rgb(250, 246, 246);
+}
+.container{
+    background-color: rgb(4, 4, 61);
+    padding: 20px;
+}
+.logo{
+    width: 50%;
+}
+.logo .logos{
+    width: 40%;
+}
+.titrelogo{
+    width: 60%;
+    font-size: 70%;
+    color: white;
+    position: relative;
+    float: right;
+    bottom: 45px;
+}
+.logo img{
+    height: 70px;
+    width: 100%;
+    border-radius: 100%;
+}
+.buton{
+    height: 50px;
+    width: 60px;
+    border: solid white 1px;
+    position: relative;
+    float: right;
+    bottom: 60px;
+    cursor: pointer;
+    border-radius: 5px;
+    left: 80%;
+}
+.buton span{
+    height: 2px;
+    width: 100%;
+    margin: 10px 0;
+    background-color: white;
+    display: block;
+    border-radius: 20%;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav a{
+    color:white;
+    text-decoration: none;
+    margin: 10px;
+}
+.nav{
+    display: none;
+
+    position: relative;
+}
+.content{
+    background-color: rgb(250, 246, 246);
+    padding: 50px;
+}
+.itemes1 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+.itemes1 .titre{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: underline;
+    
+}
+li ul li{
+    list-style:circle;
+}
+.itemes1 li{
+    list-style: none;
+}
+.langues ul{
+    width: 60%;
+    position: relative;
+    left: 40%;
+}
+.langues li{
+    list-style:disc;
+    position: relative;
+    bottom: 20px;
+}
+.experience1 h4,.experience2 h4,.experience3 h4{
+    text-decoration: underline;
+} 
+.experience1,.experience2,.experience3{
+    margin: 0 0 20px 0;
+}
+.titre1{
+    text-align: left;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 60%;
+    padding: 20px;
+}
+footer h1{
+    width: 68%;
+    margin: 20px auto;
+}
+footer h2{
+    margin: auto;
+    width: 23%;
+}
+.tite{
+    font-size: 80%;
+    margin: 0 15% 20px;
+}
+form{
+    margin: 30px;
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+textarea{
+    margin-bottom: 15px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+td{
+    width: 100%;
+    height: 30px;
+}
+.envoi{
+    background-color: rgb(233, 88, 88);
+}

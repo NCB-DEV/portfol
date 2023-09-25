@@ -1,0 +1,28 @@
+@media(min-width:992px){
+    .buton{
+        display: none;
+    }
+    .tite{
+        font-size: 100%;
+        width: 60%;
+        margin-top: 30px;
+    }
+    .nav{
+        display: flex;
+        position: relative;
+        float: right;
+        width: 50%;
+        bottom: 63px;
+        align-items: end;
+    }
+    nav ul{
+        display: flex;
+        position: relative;
+    }
+    .logos img{
+        width: 70%;
+    }
+    .itemes1{
+        text-align: justify;
+    }
+}
